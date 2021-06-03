@@ -3,18 +3,18 @@
         <meta charset="utf-8" />
         <meta
             name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+            content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <link href="styles/tailwind.css" type="text/css" rel="stylesheet" />
         <link
             href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:400,700,800&display=swap"
-            rel="stylesheet"
-        />
+            rel="stylesheet" />
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-            rel="stylesheet"
-        />
+            rel="stylesheet" />
+        <link rel="icon" href="./assets/images/logo.png">
+        <title>Sliding Puzzle</title>
+        <meta name="description" content="Discover &quot;Sliding Puzzle&quot; app. Slide the tiles & rebuild the images in this classic game. Free Android Download." />
         <style>
             @font-face {
                 font-family: 'BlankaRegular';
@@ -22,7 +22,6 @@
             }
         </style>
     </head>
-
     <body class="bg-white">
         <nav
             class="h-24 flex items-center justify-between flex-wrap p-6 bg-yellow-500"
@@ -42,7 +41,7 @@
         <!-- Hero Section -->
         <div
             class="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-none bg-yellow-500"
-            style="background-color: #1f202c"
+            style="background-position: center; background-image: url('./assets/images/background.jpg');"
         >
             <!-- Left Section -->
             <div
@@ -51,16 +50,16 @@
                 <div
                     class="h-40 w-full lg:w-3/4 flex flex-col mt-8 lg:mt-16 px-4 lg:px-0"
                 >
-                    <p
+                    <h1
                         class="text-4xl leading-tight font-heading font-bold text-black"
-                        style="color: #ff9900"
+                        style="color: #ff9900; text-shadow: 0 0 8px #000000, 0 0 8px #000000, 0 0 8px #000000, 0 0 20px #000000;"
                     >
                         Sliding Puzzle 🧩
-                    </p>
-                    <span
+                    </h1>
+                    <h2
                         class="text-2xl leading-tight mt-4 font-body font-normal text-gray-900"
-                        style="color: #ffffff"
-                        >Have fun playing to our puzzle game! Slide the tiles and reassamble the pictures.</span
+                        style="color: #ffffff; text-shadow: 0 0 8px #000000, 0 0 8px #000000, 0 0 8px #000000, 0 0 20px #000000;"
+                        >Have fun playing to our puzzle game! Slide the tiles and reassemble the pictures.</h2
                     >
                 </div>
                 <div
@@ -68,16 +67,16 @@
                 >
                     <a href="https://play.google.com/store/apps/details?id=com.nemasoft.slidingpuzzle">
                         <img
-                            class="h-12 p-1"
+                            class="h-16 p-1"
                             src="./assets/images/google-play-badge.svg"
                         />
                     </a>
                 </div>
             </div>
             <!-- Right Section -->
-            <div class="w-full flex justify-center pb-16">
-                <img src="./assets/images/device_main.png" />
-                <img style="margin-left: 50px" src="./assets/images/device_cities.png" />
+            <div class="w-full flex justify-center py-12">
+                <img alt="Smartphone screenshot of Sliding Puzzle app categories" src="./assets/images/screenshots/device_categories.png" />
+                <img alt="Smartphone screenshot of Sliding Puzzle app puzzles" class="ml-12" src="./assets/images/screenshots/device_puzzles.png" />
             </div>
         </div>
         <!-- Features Section -->
@@ -97,40 +96,40 @@
                 <div class="flex flex-col pb-20 lg:pb-0">
                     <!-- First -->
                     <div class="pb-10">
-                        <img src="./assets/images/paintbrush_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/paintbrush.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             Lovely design
-                        </p>
-                        <span class="text-base font-body font-normal">
-                            Beautiful and simple interface. Easy to use.</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            Beautiful and simple interface. Easy to use.</h3
                         >
                     </div>
                     <!-- Second -->
                     <div class="pb-10">
-                        <img src="./assets/images/lightbulb_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/lightbulb.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             Mind challenge
-                        </p>
-                        <span class="text-base font-body font-normal">
-                            Challenge your mind. Try to beat your marks in all the puzzles!</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            Challenge your mind. Try to beat your marks in all the puzzles!</h3
                         >
                     </div>
                     <!-- Third -->
                     <div>
-                        <img src="./assets/images/play_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/play.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             10 different categories
-                        </p>
-                        <span class="text-base font-body font-normal">
-                            You will find the category that fits you more! Landscapes, animals, cities... Which one do you prefer?</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            You will find the category that fits you more! Landscapes, animals, cities... Which one do you prefer?</h3
                         >
                     </div>
                 </div>
                 <!-- Middle Phone Image -->
                 <div class="hidden lg:flex lg:justify-center">
                     <img
-                        src="./assets/images/device_hat.png"
-                        alt=""
+                        src="./assets/images/screenshots/device_puzzle.png"
+                        alt="Smartphone screenshot of Sliding Puzzle app puzzle"
                         style="width: 240px; height: 480px;"
                     />
                 </div>
@@ -138,32 +137,32 @@
                 <div class="flex flex-col lg:justify-center">
                     <!-- First -->
                     <div class="pb-10">
-                        <img src="./assets/images/puzzle_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/puzzle.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             More than 150 puzzle games
-                        </p>
-                        <span class="text-base font-body font-normal">
-                          Will you play to all of them?</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            Will you play to all of them?</h3
                         >
                     </div>
                     <!-- Second -->
                     <div class="pb-10">
-                        <img src="./assets/images/picture_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/picture.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             Stunning pictures
-                        </p>
-                        <span class="text-base font-body font-normal">
-                            Have a great experience playing with the most beautiful pictures.</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            Have a great experience playing with the most beautiful pictures.</h3
                         >
                     </div>
                     <!-- Third -->
                     <div>
-                        <img src="./assets/images/camera_icon.svg" width="50px" class="lg:pb-2" />
-                        <p class="text-xl font-heading font-bold mb-4">
+                        <img src="./assets/images/icons/camera.svg" width="50px" class="lg:pb-2" />
+                        <h2 class="text-xl font-heading font-bold mb-4">
                             3 different modes
-                        </p>
-                        <span class="text-base font-body font-normal">
-                            Select a picture, upload an image from your image gallery or take a photo and turn it into a puzzle.</span
+                        </h2>
+                        <h3 class="text-base font-body font-normal">
+                            Select a picture, upload an image from your image gallery or take a photo and turn it into a puzzle.</h3
                         >
                     </div>
                 </div>
@@ -193,7 +192,7 @@
                             <img
                                 class="rounded-full shadow-lg self-center"
                                 style="margin-left: auto; margin-right: auto;"
-                                src="./assets/images/perepujol.png"
+                                src="./assets/images/avatars/perepujol.png"
                                 alt=""
                             />
                             <div class="flex flex-col">
@@ -227,14 +226,14 @@
                             <img
                                 class="rounded-full shadow-lg self-center"
                                 style="margin-left: auto; margin-right: auto;"
-                                src="./assets/images/danielrosquellas.png"
+                                src="./assets/images/avatars/danielrosquellas.png"
                                 alt=""
                             />
                             <div class="flex flex-col">
                                 <p
                                     class="text-base text-center font-bold font-heading pt-2"
                                 >
-                                    Daniel Rosquellas Montero
+                                    Daniel Rosquellas
                                 </p>
                                 <p
                                     class="text-base italic text-center pb-4 font-body"
@@ -262,7 +261,7 @@
                             <img
                                 class="rounded-full shadow-lg self-center"
                                 style="margin-left: auto; margin-right: auto;"
-                                src="./assets/images/sergifoz.png"
+                                src="./assets/images/avatars/sergifoz.png"
                                 alt=""
                             />
                             <div class="flex flex-col">
@@ -296,12 +295,12 @@
             >
             <div class="flex flex-col justify-center">
                 <div class="w-full text-center px-4">
-                    <p
+                    <h2
                         class="text-3xl font-heading font-bold"
                         style="color: #ffffff"
                         >
                         Download Sliding Puzzle on Google Play
-                    </p>
+                    </h2>
                     <span
                         class="text-xl font-body font-normal"
                         style="color: #ff9900"
@@ -311,7 +310,7 @@
                 <div class="flex flex-row mt-32 lg:mt-16 justify-center">
                     <a href="https://play.google.com/store/apps/details?id=com.nemasoft.slidingpuzzle">
                         <img
-                            class="h-12 p-1"
+                            class="h-16 p-1"
                             src="./assets/images/google-play-badge.svg"
                         />
                     </a>
